@@ -25,4 +25,4 @@ cp -Rn calibration/. "$DEST/"
 echo "calibration files in $DEST:"; find "$DEST" -name '*.json'
 
 python -c "import lerobot; print('lerobot', lerobot.__version__, 'OK')"
-echo "Done. Next: plug in both arms, then ./teleop.sh"
+echo "Done. Next: plug in both arms, then: conda activate lerobot && python teleop.py"

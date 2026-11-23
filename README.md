@@ -8,8 +8,8 @@
 준비물: [miniforge](https://conda-forge.org/download/) (conda)
 
 ```bash
-git clone git@github.com:gwpark0741/so101-chess-supporter.git
-cd so101-chess-supporter
+git clone git@github.com:team-sunota/boardgame-assist-arm.git
+cd boardgame-assist-arm
 ./setup.sh
 ```
 

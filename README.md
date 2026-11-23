@@ -1,6 +1,6 @@
 # SO-101 팀 키트 (텔레오퍼레이션 바로 시작하기)
 
-이 폴더 하나로 팀원 Mac에서 설치 → 텔레오퍼레이션까지 됩니다.
+이 레포 하나로 팀원 Mac에서 설치 → 텔레오퍼레이션까지 됩니다.
 로봇(leader/follower 한 쌍)은 이미 조립·모터 ID 설정·칼리브레이션 완료 상태입니다.
 
 ## 1. 최초 1회 설치
@@ -8,6 +8,8 @@
 준비물: [miniforge](https://conda-forge.org/download/) (conda)
 
 ```bash
+git clone git@github.com:gwpark0741/so101-chess-supporter.git
+cd so101-chess-supporter
 ./setup.sh
 ```
 

@@ -89,7 +89,8 @@ python teleop.py
 | Leader | `5B14029957` | `my_so101_leader` |
 | Follower | `5B14114450` | `my_so101_follower` |
 
-못 찾으면 연결된 포트 목록을 보여줍니다. 직접 지정: `python teleop.py --leader COM5 --follower COM6`
+못 찾으면 연결된 포트 목록을 보여줍니다. 그때는 `lerobot-find-port` 로 각 팔의 포트를 찾아서 (안내에 따라 USB를 하나씩 뽑으면 됨) 직접 지정하세요:
+`python teleop.py --leader COM5 --follower COM6`
 
 ## 문제 해결
 
